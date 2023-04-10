@@ -1,0 +1,377 @@
+* {
+  padding: 0rem;
+  margin: 0rem;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+body {
+  background-color: #232323ff;
+}
+.section-1 {
+  height: 93vh;
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 1),
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 1)
+    ),
+    url(https://assets.nflxext.com/ffe/siteui/vlv3/f1c3c4eb-2fea-42c7-9ebd-1c093bd8a69d/9c9af369-7a8c-4c8f-8e4a-d6c9d655f713/IN-en-20230403-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+header {
+  height: 7rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 16rem;
+  padding-top: 2rem;
+}
+
+.netflix-logo {
+  width: 15rem;
+}
+
+#header-select {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-weight: 600;
+  width: 9.5rem;
+  height: 3.2rem;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 5px;
+  background-color: transparent;
+  margin-right: 2rem;
+  font-size: 1.5rem;
+}
+
+#header-select option {
+  background-color: black;
+}
+
+.sign-in {
+  background-color: rgb(237, 2, 2);
+  width: 7.5rem;
+  height: 3.2rem;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 5px;
+  border: 1px solid black;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.section-1-main {
+  height: 86rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-1-main-inner {
+  color: aliceblue;
+  width: 90rem;
+  height: 30rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.header-h1 {
+  font-size: 5.4rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 1000;
+  margin-bottom: 1.5rem;
+}
+.header-h2 {
+  font-size: 2.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 2rem;
+}
+.header-p {
+  font-size: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 1.5rem;
+}
+
+#header-input {
+  width: 37rem;
+  height: 5.5rem;
+  border-radius: 5px;
+  border: 2px solid rgba(255, 255, 255, 0.491);
+  background-color: rgba(0, 0, 0, 0.511);
+  padding-left: 2rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: white;
+}
+#header-button {
+  margin-left: 1rem;
+  width: 15rem;
+  height: 5.5rem;
+  border-radius: 5px;
+  border: transparent;
+  background-color: rgb(237, 2, 2);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+/* 
+section 2 */
+
+.section-2 {
+  color: white;
+  height: 75vh;
+  margin-top: 1rem;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-2-container {
+  width: 100%;
+  height: 80%;
+  display: flex;
+}
+
+.section-2-div-1 {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.section-2-div-1-inner {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.section-2-div-1-h1 {
+  font-size: 5.2rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 1000;
+  margin-bottom: 2rem;
+}
+
+.section-2-div-1-p {
+  width: 99%;
+  font-size: 2.3rem;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 1px;
+}
+
+/* 
+
+div 2 */
+
+.section-2-div-2 {
+  overflow: hidden;
+  width: 50%;
+  position: relative;
+}
+
+.section-2-div-2 img {
+  width: 55rem;
+  float: left;
+  position: relative;
+  bottom: 1rem;
+  z-index: 2;
+}
+
+.section-2-div-2 video {
+  left: 8rem;
+  bottom: 5rem;
+  position: absolute;
+  width: 44rem;
+  left: 7.2rem;
+  top: 7.1rem;
+}
+
+@media (width<1161px) {
+  header {
+    padding: 0 7rem;
+  }
+}
+@media (width<1161px) {
+}
+
+@media (width<1096px) {
+  .section-2-div-2 img {
+    width: 45rem;
+  }
+  .section-2-div-2 video {
+    width: 35rem;
+    left: 6rem;
+    top: 6rem;
+  }
+}
+
+@media (width<936px) {
+  header {
+    padding: 5rem 3rem;
+  }
+
+  html {
+    font-size: 55%;
+  }
+
+  .section-1 {
+    height: 80vh;
+  }
+  .section-2 {
+    height: 100vh;
+  }
+  .section-2-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  .section-2-div-1 {
+    width: 100%;
+    justify-content: center;
+    height: 30vh;
+  }
+
+  .section-2-div-1-inner {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .section-2-div-1-h1 {
+    font-size: 5.2rem;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-weight: 1000;
+    margin-bottom: 2rem;
+  }
+
+  .section-2-div-1-p {
+    text-align: center;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+  }
+
+  .section-2-div-2 {
+    width: 100%;
+    /* overflow: hidden; */
+    height: 70vh;
+    position: relative;
+  }
+
+  .section-2-div-2 img {
+    width: 70rem;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -45%);
+  }
+
+  .section-2-div-2 video {
+    position: absolute;
+    width: 51rem;
+    position: absolute;
+    top: 42.6%;
+    left: 49.7%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+@media (width<794px) {
+  html {
+    font-size: 50%;
+  }
+}
+@media (width<724px) {
+  html {
+    font-size: 45%;
+  }
+  .section-1-main {
+    padding: 0 3rem;
+  }
+  .netflix-logo {
+    width: 20rem;
+  }
+
+  #header-select {
+    width: 12rem;
+    height: 4.2rem;
+    font-size: 2rem;
+  }
+
+  .sign-in {
+    width: 9rem;
+    height: 4.2rem;
+    font-size: 2rem;
+  }
+  .header-h1 {
+    font-size: 6rem;
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  .header-h2 {
+    font-size: 3.2rem;
+    margin-bottom: 3rem;
+    text-align: center;
+  }
+  .header-p {
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    text-align: center;
+  }
+  .input-and-button {
+    margin-bottom: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  #header-input {
+    width: 40rem;
+    height: 7rem;
+  }
+  #header-button {
+    width: 15rem;
+    height: 5.5rem;
+  }
+}
+
+@media (width<459px) {
+  html {
+    font-size: 40%;
+  }
+  .section-2-div-1-inner {
+    padding: 0 3rem;
+  }
+}
+
+@media (width<385px) {
+  html {
+    font-size: 35%;
+  }
+}
+
+@media (width<300px) {
+  html {
+    font-size: 30%;
+  }
+}
